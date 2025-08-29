@@ -49,19 +49,21 @@ tsconfig.json
 ```bash
 git clone https://github.com/yourusername/venture_mine_challenge.git
 cd venture_mine_challenge
+```bash
 
 2️⃣ Install dependencies
-
+```bash
 npm install
 # or
 yarn install
+```bash
 
 3️⃣ Run the development server
-
+```bash
 npm run dev
 # or
 yarn dev
-
+```bash
 4️⃣ Open in your browser
 
 Testing & Verification
