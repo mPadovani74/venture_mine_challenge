@@ -43,16 +43,11 @@ export function UnopenedCookie({ onCrack }: UnopenedCookieProps) {
         className="cursor-pointer mb-8"
       >
         <div className="relative">
-          {/* Cookie Shadow */}
           <div className="absolute top-2 left-2 w-32 h-20 bg-black/20 rounded-full blur-md" />
-
-          {/* Fortune Cookie */}
           <div className="relative w-32 h-20 bg-gradient-to-br from-yellow-200 to-amber-300 rounded-full transform rotate-12 shadow-lg border-2 border-amber-400">
-            {/* Cookie texture lines */}
             <div className="absolute inset-2 border border-amber-500/30 rounded-full" />
             <div className="absolute inset-4 border border-amber-500/20 rounded-full" />
 
-            {/* Sparkle effects */}
             <motion.div
               animate={{ rotate: 360 }}
               transition={{
@@ -85,7 +80,7 @@ export function UnopenedCookie({ onCrack }: UnopenedCookieProps) {
         transition={{ delay: 0.5 }}
         className="text-center relative"
       >
-        {/* Magical aura around title */}
+
         <motion.div
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 0.2 }}
@@ -93,7 +88,6 @@ export function UnopenedCookie({ onCrack }: UnopenedCookieProps) {
           className="absolute inset-0 bg-gradient-to-r from-amber-200/30 via-yellow-200/30 to-orange-200/30 rounded-full blur-2xl transform scale-150"
         />
 
-        {/* Orbiting sparkles around title */}
         {[...Array(8)].map((_, i) => (
           <motion.div
             key={i}
@@ -132,7 +126,6 @@ export function UnopenedCookie({ onCrack }: UnopenedCookieProps) {
           </motion.div>
         ))}
 
-        {/* Enhanced title with gradient and glow */}
         <motion.h1
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -163,7 +156,6 @@ export function UnopenedCookie({ onCrack }: UnopenedCookieProps) {
           </motion.span>
         </motion.h1>
 
-        {/* Enhanced subtitle with shimmer effect */}
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -178,7 +170,6 @@ export function UnopenedCookie({ onCrack }: UnopenedCookieProps) {
           </motion.span>
         </motion.p>
 
-        {/* Enhanced magic text with pulsing border */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}

@@ -38,12 +38,10 @@ export function BackgroundEffects() {
     <div className="fixed inset-0 w-full h-full pointer-events-none bg-gradient-to-br from-orange-50/80 to-amber-100/80 backdrop-blur-sm z-0">
       <AnimatedBackground />
 
-      {/* Sparkles */}
       {sparkles.map((s, i) => (
         <SparkleItem key={i} x={s.x} y={s.y} size={s.size} scale={s.scale} opacity={s.opacity} index={i} />
       ))}
 
-      {/* Particles */}
       {particles.map((p, i) => (
         <ParticleItem key={i} x={p.x} y={p.y} scale={p.scale} opacity={p.opacity} index={i} />
       ))}

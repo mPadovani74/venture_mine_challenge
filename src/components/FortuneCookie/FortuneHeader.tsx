@@ -52,7 +52,6 @@ export function FortuneHeader() {
         </motion.div>
       ))}
 
-      {/* Main sparkle with complex animation */}
       <motion.div
         initial={{ scale: 0, rotate: 0 }}
         animate={{
@@ -92,7 +91,6 @@ export function FortuneHeader() {
           <Sparkles className="w-10 h-10 text-amber-500 drop-shadow-2xl" />
         </motion.div>
 
-        {/* Pulsing ring around main sparkle */}
         <motion.div
           initial={{ scale: 0, opacity: 0 }}
           animate={{
@@ -109,7 +107,6 @@ export function FortuneHeader() {
         />
       </motion.div>
 
-      {/* Enhanced title with gradient and glow */}
       <motion.h2
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}

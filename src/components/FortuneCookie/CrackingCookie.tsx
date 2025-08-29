@@ -17,7 +17,6 @@ export function CrackingCookie() {
         transition={{ duration: 2, ease: "easeInOut" }}
         className="relative mb-8"
       >
-        {/* Cracking cookie with split effect */}
         <div className="relative w-32 h-20">
           {/* Left half */}
           <motion.div

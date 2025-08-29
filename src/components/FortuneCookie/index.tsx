@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import { UnopenedCookie } from "./UnopedCookie";
 import { CrackingCookie } from "./CrackingCookie";
 import { OpenedFortune } from "./OpenedFortune";
-import { fortunes, Fortune } from "../../app/data/fortunes"; 
+import { fortunes, Fortune } from "../../data/fortunes"; 
 
 type CookieState = "unopened" | "cracking" | "opened";
 
