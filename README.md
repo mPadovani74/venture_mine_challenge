@@ -12,7 +12,8 @@
 This project is an **interactive Fortune Cookie page** built with **Next.js 14+**.  
 The goal is to recreate a Figma design while ensuring **responsiveness** across mobile, tablet, and desktop screens.
 
-**Figma Design Preview:** [View Here](https://www.figma.com/make/47d3KIMpuXxZzDEmlkJYGu/Fortune-Cookie---Community-?node-id=0-1&p=f&t=WjI0L34wDZMTQEME-0)
+**Figma Design Preview:** [View Here](https://www.figma.com/make/47d3KIMpuXxZzDEmlkJYGu/Fortune-Cookie---Community-?node-id=0-1&p=f&t=WjI0L34wDZMTQEME-0)  
+**Live Demo:** [Click to Test](https://venture-mine-challenge-747x.vercel.app/)
 
 ---
 
@@ -39,35 +40,33 @@ package.json
 next.config.ts
 tsconfig.json
 
-yaml
-Copiar código
 
 ---
 
 ## ⚡ Getting Started
 
 ### 1️⃣ Clone the repository
-
 ```bash
 git clone https://github.com/yourusername/venture_mine_challenge.git
 cd venture_mine_challenge
+
 2️⃣ Install dependencies
-bash
-Copiar código
+
 npm install
 # or
 yarn install
+
 3️⃣ Run the development server
-bash
-Copiar código
+
 npm run dev
 # or
 yarn dev
-4️⃣ Open in your browser
-http://localhost:3000
 
-🧪 Testing & Verification
-Test the page on different devices to ensure it is fully responsive.
+4️⃣ Open in your browser
+
+Testing & Verification
+
+Test the page on different devices to ensure full responsiveness.
 
 Click the fortune cookie to check animations and interactions.
 
@@ -77,12 +76,12 @@ Verify accessibility, including alt text for images.
 
 Optional: Run linter to check code quality:
 
-bash
-Copiar código
 npm run lint
 # or
 yarn lint
+
 ✨ Features
+
 Fully responsive design for mobile, tablet, and desktop.
 
 Interactive Fortune Cookie with animations and glow effects.
@@ -96,6 +95,7 @@ Accessible images and elements with alt text.
 No console errors.
 
 🛠 Technology Stack
+
 Next.js 14+ (App Router)
 
 React 18+
@@ -107,6 +107,7 @@ Tailwind CSS
 Framer Motion (animations)
 
 📜 License
+
 This project is licensed under the MIT License. See LICENSE for details.
 
-Made with ❤️ mPadovani
+Made with ❤️ by mPadovani
