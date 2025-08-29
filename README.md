@@ -1,37 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Venture Mine Challenge — Next.js
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-14+-black?style=for-the-badge&logo=next.js)
+![Node.js](https://img.shields.io/badge/Node.js->=18-339933?style=for-the-badge&logo=node.js)
+![NPM](https://img.shields.io/badge/npm->=9-CB3837?style=for-the-badge&logo=npm)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-First, run the development server:
+---
+
+## 🌟 Overview
+
+This project is an **interactive Fortune Cookie page** built with **Next.js 14+**.  
+The goal is to recreate a Figma design while ensuring **responsiveness** across mobile, tablet, and desktop screens.
+
+**Figma Design Preview:** [View Here](https://www.figma.com/make/47d3KIMpuXxZzDEmlkJYGu/Fortune-Cookie---Community-?node-id=0-1&p=f&t=WjI0L34wDZMTQEME-0)
+
+---
+
+## 🧰 Requirements
+
+- Node.js >= 18  
+- npm >= 9 (or yarn, if preferred)  
+- Next.js 14+  
+
+---
+
+## 📁 Project Structure
+
+src/
+├─ app/ # Next.js App Router pages and layouts
+├─ components/ # Reusable components
+│ ├─ BackgroundEffects/
+│ ├─ FortuneCookie/
+│ └─ ui/
+└─ mocks/ # Mock data for testing
+public/
+node_modules/
+package.json
+next.config.ts
+tsconfig.json
+
+yaml
+Copiar código
+
+---
+
+## ⚡ Getting Started
+
+### 1️⃣ Clone the repository
 
 ```bash
+git clone https://github.com/yourusername/venture_mine_challenge.git
+cd venture_mine_challenge
+2️⃣ Install dependencies
+bash
+Copiar código
+npm install
+# or
+yarn install
+3️⃣ Run the development server
+bash
+Copiar código
 npm run dev
 # or
 yarn dev
+4️⃣ Open in your browser
+http://localhost:3000
+
+🧪 Testing & Verification
+Test the page on different devices to ensure it is fully responsive.
+
+Click the fortune cookie to check animations and interactions.
+
+Open the browser console to confirm no errors or warnings.
+
+Verify accessibility, including alt text for images.
+
+Optional: Run linter to check code quality:
+
+bash
+Copiar código
+npm run lint
 # or
-pnpm dev
-# or
-bun dev
-```
+yarn lint
+✨ Features
+Fully responsive design for mobile, tablet, and desktop.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Interactive Fortune Cookie with animations and glow effects.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Semantic HTML using <header>, <main>, <footer>, etc.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Reusable and organized React components.
 
-## Learn More
+Accessible images and elements with alt text.
 
-To learn more about Next.js, take a look at the following resources:
+No console errors.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠 Technology Stack
+Next.js 14+ (App Router)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+React 18+
 
-## Deploy on Vercel
+TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tailwind CSS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# venture_mine_challenge
+Framer Motion (animations)
+
+📜 License
+This project is licensed under the MIT License. See LICENSE for details.
+
+Made with ❤️ mPadovani

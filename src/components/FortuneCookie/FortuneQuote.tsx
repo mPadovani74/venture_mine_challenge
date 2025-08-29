@@ -12,7 +12,7 @@ export function FortuneQuote({ quote }: FortuneQuoteProps) {
       transition={{ delay: 0.6 }}
       className="text-center text-gray-700 mb-6 italic leading-relaxed"
     >
-      "{quote}"
+      &quot;{quote}&quot;
     </motion.blockquote>
   );
 }
